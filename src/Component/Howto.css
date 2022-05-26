@@ -1,0 +1,13 @@
+.how-main-cont{
+    width: 100%;
+    
+}
+.how-heading{
+    color: black;
+    background-color: aquamarine;
+    text-align: center;
+}
+.image-cont>img{
+    width: 6%;
+    /* height: 10rem; */
+}

@@ -1,0 +1,21 @@
+.about-cont{
+    width: 100%;
+    background-color: #F2126B;
+    color: #fff;
+}
+.about-heading{
+    text-align: center;
+}
+.para{
+    padding: 0.6rem 5rem;
+    text-align: justify;
+}
+@media screen and (max-width:760px) {
+    .para{
+        padding: 0.8rem 2rem;
+        text-align: justify;
+    }
+    .about-heading{
+        padding: .5rem 2rem;
+    }
+}
