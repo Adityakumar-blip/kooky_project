@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Howto from './Component/Howto';
 import About from './Component/About'
@@ -8,7 +7,7 @@ import Navbar from './Component/Navbar';
 import Product from './Component/Product';
 import Stock from './Component/Stock';
 import Track from './Component/Track';
-import { BrowserRouter as Router,Routes,Route  } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
 
 function App() {
   return (

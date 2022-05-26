@@ -1,0 +1,49 @@
+.stock-main-cont{
+    padding: 3%;
+    background-color: #F7961D;
+    color: white;
+    text-align: center;
+}
+
+.stock-img-cont{
+    height: 20rem;
+    width: 100%;
+}
+
+.stock-img-cont>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.stock-main-cont>h1{
+    text-align: center;
+}
+.stock-main-cont>input{
+    border-radius: 10px;
+    border: none;
+    padding: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.stock-main-cont>button{
+    margin: 1% 0;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 0.5% 2%;
+    font-weight: 600;
+}
+
+.stock-main-cont>button:hover{
+    color: white;
+    background-color:#F7961D;
+}
+
+@media screen and (max-width:760px)
+{
+    .stock-img-cont{
+        height: 15rem;
+        width: 100%;
+    }
+}
