@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FiSearch } from "react-icons/fi";
 import { MdAccountCircle } from "react-icons/md";
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
    
@@ -13,32 +14,26 @@ const Navbar = () => {
         <div className="account"><MdAccountCircle /></div>
       </div>
       <h1>
-        {" "}
         <a href="" style={{ textDecoration: "none", color: "white" }}>
-          KOOKY
+        <Link to="/"> KOOKY</Link>
         </a>
       </h1>
       <div className="nav-right">
         <ul>
           <li>
-            {" "}
-            <a href=""> Home</a>
+            <a href=""><Link to="/product">Product</Link></a>
           </li>
           <li>
-            {" "}
-            <a href="">Product</a>{" "}
+            <a href=""><Link to="/howto">How to</Link></a>
           </li>
           <li>
-            {" "}
-            <a href="">How to use?</a>{" "}
+            <a href=""><Link to="/track">Track</Link></a>
           </li>
           <li>
-            {" "}
-            <a href="">Track your order</a>{" "}
+            <a href=""><Link to="/stock">Investor</Link></a>
           </li>
           <li>
-            {" "}
-            <a href="">About Us</a>{" "}
+            <a href=""><Link to="/about">About</Link></a>
           </li>
         </ul>
       </div>

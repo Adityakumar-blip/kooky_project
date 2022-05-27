@@ -9,14 +9,14 @@
 	height: 0;
 	border-left: 50vw solid transparent;
 	border-right: 50vw solid transparent;
-	border-top: 90vh solid #F7961D;
+	border-top: 85vh solid #F7961D;
   }
   
   .home-triangle-content{
       color: white;
       padding:0 20% ;
     text-align: center;
-    top: 8rem;
+    top: 7rem;
     left: 1rem;
     position: absolute;
     margin: 0px;
