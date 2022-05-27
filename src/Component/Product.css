@@ -1,1 +1,28 @@
+ .product-cont{
+     margin: 0;
+     padding: 0;
+     height: 100%;
+ }
+ .product-row-1{
+     width: 100%;
+     height: 70vh;
+     background-color: brown;
+ }
+ .product-col-1{
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .product-col-1>img{
+    height: 100%;
+    padding: 2rem;
+ }
+ .product-col-2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
  

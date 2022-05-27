@@ -41,6 +41,7 @@ h1{
     align-items: center;
 }
 .nav-right>ul>li{
+  height: 2rem;
   color:white;
   list-style: none;
   padding: 0 .5rem;
