@@ -1,21 +1,70 @@
 .nav-cont{
-    background-color: aqua;
+    color: white;
+    background-color: #1FDBD3;
     width:100%;
-    height: 4rem;
+    height: 3.5rem;
     display: flex;
     flex-direction: row;
 }
-.ul-cont>ul{
-    height: 100%;
+.nav-left{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+    justify-content: start;
+}
+.nav-left>*{
+    margin: 0 .5rem;
+    font-size: 1.5rem;
+}
+h1{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.nav-right{
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 0 1rem;
-    margin: 0 1rem;
-    list-style: none;
+    float: right;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
 }
-.ul-cont>ul>li{
+.nav-right>ul{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right>ul>li{
+  color:white;
+  list-style: none;
+  padding: 0 .5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.nav-right>ul>li:hover{
+    background-color: rgb(12, 77, 105);
+}
+.nav-right>ul>li>a{
     text-decoration: none;
-    padding: 0 2rem;
+    color: white;
 }
- 
+@media screen and (max-width:760px){
+     .nav-left .account{
+         display: none;
+     }
+     .nav-right{
+         display: none;
+     }
+     .nav-cont{
+         justify-content: center;
+         align-items: center;
+     }
+     
+}
