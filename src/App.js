@@ -15,12 +15,12 @@ function App() {
        <Router> 
          <Navbar/>
          <Routes>
-           {/* <Route exact path='/' element={<Home/>}/>  */}
-           {/* <Route path='/about' element={<About/>}/>  */}
+           <Route exact path='/' element={<Home/>}/> 
+           <Route path='/about' element={<About/>}/> 
            <Route path='product' element={ <Product/> }/> 
-           {/* <Route path='stock' element={<Stock/>}/>   */}
-           {/* <Route path='/track' element={<Track/>}/> */}
-           {/* <Route path='howto' element={<Howto/>}/> */}
+           <Route path='stock' element={<Stock/>}/>  
+           <Route path='/track' element={<Track/>}/>
+           <Route path='howto' element={<Howto/>}/>
          </Routes> 
        <Footer/>
        </Router> 

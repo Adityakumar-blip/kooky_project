@@ -5,6 +5,7 @@ import {FaInstagramSquare} from 'react-icons/fa'
 import {FaFacebook} from 'react-icons/fa'
 import {AiFillAmazonCircle} from 'react-icons/ai'
 import {SiFlipkart} from 'react-icons/si'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -21,20 +22,20 @@ const Footer = () => {
         </div>
         <div className="footer-col-second col-lg-3 col-md-6 col-sm-12">
           <div className="footer-col-cont">
-         <p>PRODUCT</p>
-         <p>HOW TO'S</p>
+         <p><Link to='/product'>PRODUCT</Link></p>
+         <p><Link to='/howto'>HOW TO'S</Link></p>
           </div>
         </div>
         <div className="footer-col-third col-lg-3 col-md-6 col-sm-12">
         <div className="footer-col-cont">
-        <p>ABOUT</p>
-        <p>TRACK YOUR ORDER</p>
+        <p><Link to='/about'>ABOUT</Link></p>
+        <p><Link to='/track'>TRACK YOUR ORDER</Link></p>
           </div>
         </div>
         <div className="footer-col-fourth col-lg-3 col-md-6 col-sm-12">
-        <div className="footer-col-cont">
-          <p>INVESTOR RELATION</p>
-          <p>ALSO AVAILABLE ON</p>
+        <div className="footer-col-container">
+          <p><Link to='/stock'>INVESTOR RELATION</Link></p>
+          <p><Link to=''>ALSO AVAILABLE ON</Link></p>
           <div className="footer-icon-collection-last">
           <AiFillAmazonCircle/>
           <SiFlipkart/>
