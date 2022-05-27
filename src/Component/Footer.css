@@ -7,11 +7,13 @@
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-icon-collection{
     padding: 2% 0;
-    width: 90%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -31,6 +33,13 @@
 }
 
 .footer-col-cont{
+    line-height: 1.3rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.footer-col-container{
+    padding-top: 2.5rem;
     line-height: 1.3rem;
     font-size: 1.2rem;
     color: white;
@@ -67,6 +76,14 @@
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+
 
 @media screen and (max-width:760px){
     .footer-col-text{
@@ -87,6 +104,13 @@
     }
 
     .footer-col-cont{
+        padding: 1% 0;
+        border-width: 100vw;
+        border-top: 2px solid #bbb;
+        text-align: center;
+    }
+
+    .footer-col-container{
         padding: 1% 0;
         border-width: 100vw;
         border-top: 2px solid #bbb;
