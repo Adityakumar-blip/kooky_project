@@ -33,11 +33,14 @@
     font-size: 1.2rem;
     padding: 0.5% 2%;
     font-weight: 600;
+    border: none;
+
 }
 
 .stock-main-cont>button:hover{
     color: white;
     background-color:#F7961D;
+    border: solid white 2px;
 }
 
 @media screen and (max-width:760px)

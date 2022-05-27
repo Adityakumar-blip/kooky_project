@@ -1,0 +1,105 @@
+.home-product-row{
+    padding: 3% 10%;
+}
+
+.home-triangle{
+    width: 0;
+	height: 0;
+	border-left: 50vw solid transparent;
+	border-right: 50vw solid transparent;
+	border-top: 90vh solid blue;
+  }
+  
+  .home-triangle-content{
+      color: white;
+      padding:0 21% ;
+    text-align: center;
+    top: -30rem;
+    left: 1rem;
+    position: relative;
+    height: 93px;
+    margin: 0px;
+  }
+
+  .home-triangle-content>h1{
+      padding-bottom: 1%;
+  }
+
+  .home-triangle-icon{
+      left: 5rem;
+      position: relative;
+      margin-top: 4%;
+      margin-left: 4%;
+      width: 40vw;
+      border: solid red 1px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    
+    .triangle-icon1{
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .triangle-icon1>img{
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
+
+.home-product-img-cont{
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.home-product-img-cont>img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.home-product-name{
+    padding: 0 0 2% 0;
+}
+
+
+.home-product-button{
+    margin: 1% 0;
+    padding: 1% 3%;
+    font-size: 1.3rem;
+    border: none;
+    background-color: #F7961D;
+    color: white;
+}
+
+.home-product-other{
+    padding: 1% 0;
+    background-color: #F7961D;
+    text-align: center;
+    color: white;
+}
+.home-slider{
+    height: auto;
+    overflow: hidden;
+}
+
+.home-slider>img{
+    object-fit: 100%;
+}
+
+@media screen and (max-width:760px) {
+    .home-product-img-cont{
+        text-align: center;
+        height: 50vh;
+        width: 100%;
+    }
+    
+    .home-product-img-cont>img{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+}
