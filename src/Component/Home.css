@@ -1,23 +1,24 @@
+
 .home-product-row{
     padding: 3% 10%;
 }
 
 .home-triangle{
+    position: relative;
     width: 0;
 	height: 0;
 	border-left: 50vw solid transparent;
 	border-right: 50vw solid transparent;
-	border-top: 90vh solid blue;
+	border-top: 90vh solid #F7961D;
   }
   
   .home-triangle-content{
       color: white;
-      padding:0 21% ;
+      padding:0 20% ;
     text-align: center;
-    top: -30rem;
+    top: 8rem;
     left: 1rem;
-    position: relative;
-    height: 93px;
+    position: absolute;
     margin: 0px;
   }
 
@@ -31,7 +32,6 @@
       margin-top: 4%;
       margin-left: 4%;
       width: 40vw;
-      border: solid red 1px;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
@@ -46,7 +46,7 @@
     .triangle-icon1>img{
         border-radius: 50%;
         height: 100%;
-        width: 100%;
+        width: 110%;
     }
 
 .home-product-img-cont{
@@ -91,6 +91,11 @@
 }
 
 @media screen and (max-width:760px) {
+
+    .home-product-col-second{
+        text-align: center;
+    }
+
     .home-product-img-cont{
         text-align: center;
         height: 50vh;
@@ -101,5 +106,106 @@
         object-fit: contain;
         width: 100%;
         height: 100%;
+    }
+
+.home-triangle{
+    width: 0;
+	border-top: 80vh solid #F7961D;
+    background-color: #F7961D;
+-webkit-clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
+clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
+  }
+  
+  .home-triangle-content{
+      color: white;
+      padding:0 2% ;
+    text-align: center;
+    top: 10%;
+    left: 0rem;
+    position: absolute;
+    margin: 0px;
+  }
+
+  .home-triangle-content>h1{
+      font-size: 1.6rem;
+      padding-bottom: 1%;
+  }
+
+  .home-triangle-icon{
+      left: 3rem;
+      position: relative;
+      margin-top: -1%;
+      margin-left: 0%;
+      width: 70%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    
+    .triangle-icon1{
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .triangle-icon1>img{
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:950px){
+    
+.home-triangle{
+    width: 0;
+	border-top: 80vh solid #F7961D;
+    background-color: #F7961D;
+-webkit-clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
+clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
+  }
+  
+  .home-triangle-content{
+      color: white;
+      padding:0 2% ;
+    text-align: center;
+    top: 8%;
+    left: 0rem;
+    position: absolute;
+    margin: 0px;
+  }
+
+  .home-triangle-content>h1{
+      font-size: 2.5rem;
+      padding-bottom: 1%;
+  }
+
+  .home-triangle-content>p{
+    font-size: 1.8rem;
+}
+
+  .home-triangle-icon{
+      left: 6.2rem;
+      position: relative;
+      margin-top: 2%;
+      margin-left: 0%;
+      width: 70%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    
+    .triangle-icon1{
+        height: 6rem;
+        width: 6rem;
+    }
+    
+    .triangle-icon1>img{
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
     }
 }
