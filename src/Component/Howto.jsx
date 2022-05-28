@@ -18,7 +18,7 @@ const Howto = () => {
         </div>
         <div className="how-text">
           <h3>Just three simple steps: </h3>
-          <p className="steps">
+          <p>
             1. Shake the bottle well before use <br/>
             2. Spray on hair and scalp, and massage them gently.<br/>
             3. Let it set it for a few seconds.<br/>

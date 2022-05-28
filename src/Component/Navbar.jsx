@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       <h1>
         <a href="" style={{ textDecoration: "none", color: "white" }}>
-        <Link to="/"> KOOKY</Link>
+        <Link to="/"> Kooky</Link>
         </a>
       </h1>
       <div className="nav-right">
@@ -24,7 +24,7 @@ const Navbar = () => {
             <a href=""><Link to="/product">Product</Link></a>
           </li>
           <li>
-            <a href=""><Link to="/howto">How to</Link></a>
+            <a href=""><Link to="/howto">How to Use?</Link></a>
           </li>
           <li>
             <a href=""><Link to="/track">Track</Link></a>
