@@ -8,7 +8,6 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
    
   return (
-   
     <>
     <nav>
     <input type="checkbox" id="check"/>
@@ -17,7 +16,7 @@ const Navbar = () => {
     </label>
   <label class="logo"><Link to="/"> KOOKY</Link></label>
   <ul>
-    <li><a class="active" href="#"><Link to="/product">Product</Link></a></li>
+    <li><a  href="#"><Link to="/product">Product</Link></a></li>
     <li><a href="#"><Link to="/howto">How to</Link></a></li>
     <li><a href="#"><Link to="/track">Track</Link></a></li>
     <li><a href="#"><Link to="/stock">Investor</Link></a></li>
@@ -25,6 +24,7 @@ const Navbar = () => {
   </ul>
 </nav>
 
+<div class="shubham"></div>
 </>
   );
 };
