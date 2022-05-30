@@ -6,6 +6,7 @@
     padding: 3%;
     background-color: #F7961D;
     color: white;
+    border-bottom: 4px solid black;
 }
 
 .track-text-cont>h3{

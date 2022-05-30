@@ -105,9 +105,46 @@ a.active, a:hover{
     }
 }
 
-
-
-
-
-
-
+@media screen and (max-width:760px){
+     .nav-left .account{
+         display: none;
+     }
+     .nav-right{
+         display: none;
+     }
+     .nav-cont{
+         justify-content: center;
+         align-items: center;
+     }
+     .nav-left>*{
+        margin: 0 .4rem;
+        font-size: 1.5rem;
+    }
+    
+    .nav-right{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        float: right;
+        justify-content: end;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .nav-right>ul{
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-right>ul>li{
+      height: 1.8rem;
+      color:white;
+      list-style: none;
+      padding: 0 .4rem;
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+    }
+     
+}

@@ -49,6 +49,14 @@ const Home = () => {
            </div>
           </div>
         </div>
+        <h1 className="home-product-other">WE ALL TOGETHER</h1>
+        <div className="home-slider">
+          <Slider {...settings}>
+            <img src={img4} alt="" />
+            <img src={img5} alt="" />
+            <img src={img6} alt="" />
+          </Slider>
+        </div>
         <div className="home-product-row row" style={{ margin: "0" }}>
           <div className="home-product-col-first col-lg-6 col-md-12 col-sm-12">
             <div className="home-product-img-cont">
@@ -125,14 +133,7 @@ const Home = () => {
           </div>
         </div>
 
-        <h1 className="home-product-other">WE ALL TOGETHER</h1>
-        <div className="home-slider">
-          <Slider {...settings}>
-            <img src={img4} alt="" />
-            <img src={img5} alt="" />
-            <img src={img6} alt="" />
-          </Slider>
-        </div>
+        
       </div>
     </>
   );

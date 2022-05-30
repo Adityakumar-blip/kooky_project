@@ -8,6 +8,7 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
    
   return (
+   
     <>
     <nav>
     <input type="checkbox" id="check"/>
