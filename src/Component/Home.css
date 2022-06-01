@@ -4,6 +4,7 @@
     
 }
 
+
 .home-product-row{
     padding: 3% 10%;
 }
@@ -21,7 +22,7 @@
       color: white;
       padding:0 20% ;
     text-align: center;
-    top: 7rem;
+    top: 60rem;
     left: 1rem;
     position: absolute;
     margin: 0px;
@@ -95,7 +96,57 @@
     object-fit: 100%;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:375px){
+    
+.home-triangle{
+    width: 0;
+	border-top: 80vh solid #F7961D;
+    background-color: #F7961D;
+-webkit-clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
+clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
+  }
+  
+  .home-triangle-content{
+      color: white;
+      padding:0 2% ;
+    text-align: center;
+    top: 50%;
+    left: 0rem;
+    position: absolute;
+    margin: 0px;
+  }
+
+  .home-triangle-content>h1{
+      font-size: 1.6rem;
+      padding-bottom: 1%;
+  }
+
+  .home-triangle-icon{
+      left: 3rem;
+      position: relative;
+      margin-top: -1%;
+      margin-left: 0%;
+      width: 70%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    
+    .triangle-icon1{
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .triangle-icon1>img{
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:376px) and (max-width:760px) {
 
     .home-product-col-second{
         text-align: center;
@@ -125,7 +176,7 @@ clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
       color: white;
       padding:0 2% ;
     text-align: center;
-    top: 13%;
+    top: 44%;
     left: 0rem;
     position: absolute;
     margin: 0px;
@@ -176,7 +227,7 @@ clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
       color: white;
       padding:0 2% ;
     text-align: center;
-    top: 8%;
+    top: 56%;
     left: 0rem;
     position: absolute;
     margin: 0px;

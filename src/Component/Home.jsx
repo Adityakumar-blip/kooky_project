@@ -10,6 +10,9 @@ import img6 from "./Assets/webpage3-1.jpg";
 import img7 from './Assets/slsfree.webp'
 import img8 from './Assets/proven.jpg'
 import img9 from './Assets/proven.jpg'
+import img10 from './Assets/webpage22.jpg'
+import img11 from './Assets/webpage2-2.jpg'
+import img12 from './Assets/webpage3-2.jpg'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -26,6 +29,14 @@ const Home = () => {
   };
   return (
     <>
+    <h1 className="home-product-other">WE ALL TOGETHER</h1>
+        <div className="home-slider">
+          <Slider {...settings}>
+            <img src={img4} alt=""/>
+            <img src={img5} alt="" />
+            <img src={img6} alt="" />
+          </Slider>
+        </div>
       <div className="home-main-cont">
         <div className="home-triangle"></div>
           <div className="home-triangle-content">
@@ -49,14 +60,7 @@ const Home = () => {
            </div>
           </div>
         </div>
-        <h1 className="home-product-other">WE ALL TOGETHER</h1>
-        <div className="home-slider">
-          <Slider {...settings}>
-            <img src={img4} alt="" />
-            <img src={img5} alt="" />
-            <img src={img6} alt="" />
-          </Slider>
-        </div>
+        
         <div className="home-product-row row" style={{ margin: "0" }}>
           <div className="home-product-col-first col-lg-6 col-md-12 col-sm-12">
             <div className="home-product-img-cont">
