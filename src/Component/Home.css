@@ -4,6 +4,10 @@
     
 }
 
+.home-main-cont{
+    background-color: #E6E6FA;
+}
+
 
 .home-product-row{
     padding: 3% 10%;
@@ -22,7 +26,7 @@
       color: white;
       padding:0 20% ;
     text-align: center;
-    top: 60rem;
+    top: 55rem;
     left: 1rem;
     position: absolute;
     margin: 0px;
@@ -64,11 +68,11 @@
 .home-product-img-cont>img{
     object-fit: contain;
     width: 100%;
-    height: 75%;
+    height: 90%;
 }
 
 .home-product-name{
-    padding: 0 0 2% 0;
+    padding: 3rem 0 2rem 0;
 }
 
 
@@ -79,21 +83,30 @@
     border: none;
     background-color: #F7961D;
     color: white;
+    border-radius: 5px;
+}
+
+.home-product-button:hover{
+    transform: scale(1.1);
+    transition: ease-in-out .1s;
 }
 
 .home-product-other{
     padding: 1% 0;
-    background-color: #F7961D;
+    background-color: #FAD961;
+background-image: linear-gradient(225deg, #FAD961 0%, #F76B1C 100%);
+
     text-align: center;
     color: white;
 }
 .home-slider{
-    height: auto;
+    height: 100%;
     overflow: hidden;
 }
 
 .home-slider>img{
     object-fit: 100%;
+    height: 100%;
 }
 
 @media screen and (max-width:375px){
@@ -110,15 +123,19 @@ clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
       color: white;
       padding:0 2% ;
     text-align: center;
-    top: 50%;
+    top: 40%;
     left: 0rem;
     position: absolute;
     margin: 0px;
   }
 
   .home-triangle-content>h1{
-      font-size: 1.6rem;
+      font-size: 1.3rem;
       padding-bottom: 1%;
+  }
+
+  .home-triangle-content>p{
+      font-size: 0.9rem;
   }
 
   .home-triangle-icon{
@@ -146,7 +163,7 @@ clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
 
 }
 
-@media screen and (min-width:376px) and (max-width:760px) {
+@media screen and (min-width:376px) and (max-width:500px) {
 
     .home-product-col-second{
         text-align: center;
@@ -176,7 +193,7 @@ clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
       color: white;
       padding:0 2% ;
     text-align: center;
-    top: 44%;
+    top: 40%;
     left: 0rem;
     position: absolute;
     margin: 0px;
@@ -211,6 +228,70 @@ clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
     }
 
 
+}
+
+@media screen and (min-width:501px) and (max-width:767px){
+    .home-product-col-second{
+        text-align: center;
+    }
+
+    .home-product-img-cont{
+        text-align: center;
+        height: 50vh;
+        width: 100%;
+    }
+    
+    .home-product-img-cont>img{
+        object-fit: contain;
+        width: 100%;
+        height: 75%;
+    }
+
+.home-triangle{
+    width: 0;
+	border-top: 80vh solid #F7961D;
+    background-color: #F7961D;
+-webkit-clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
+clip-path: polygon(100% 0, 100% 39%, 52% 83%, 0 44%, 0 0);
+  }
+  
+  .home-triangle-content{
+      color: white;
+      padding:0 2% ;
+    text-align: center;
+    top: 56%;
+    left: 0rem;
+    position: absolute;
+    margin: 0px;
+  }
+
+  .home-triangle-content>h1{
+      font-size: 1.6rem;
+      padding-bottom: 1%;
+  }
+
+  .home-triangle-icon{
+      left: 3rem;
+      position: relative;
+      margin-top: -1%;
+      margin-left: 0%;
+      width: 70%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    
+    .triangle-icon1{
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .triangle-icon1>img{
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:950px){

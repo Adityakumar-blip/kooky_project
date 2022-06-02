@@ -1,7 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Yeseva+One&display=swap');
+.about{
+    /* background-color: #0093E9; */
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);    
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about>h1{
+    font-family: 'Yeseva One',cursive;
+    font-size: 4rem;
+    color: white;
+}
 .about-cont{
     width: 100%;
-    background-color: #F7961D;
+    background-color: #0093E9;
+    background-image: linear-gradient(345deg, #0093E9 0%, #80D0C7 100%);    
     color: #fff;
+    padding-bottom: 1rem;
 }
 .about-heading{
     text-align: center;
@@ -11,6 +28,11 @@
     text-align: justify;
 }
 @media screen and (max-width:760px) {
+    
+    .about>h1{
+        font-size: 4rem;
+        padding-left: 3rem;
+    }
     .para{
         padding: 0.8rem 2rem;
         text-align: justify;

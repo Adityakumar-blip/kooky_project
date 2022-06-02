@@ -3,6 +3,12 @@ import "./About.css";
 
 const About = () => {
   return (
+    <>
+    <section>
+      <div className="about">
+        <h1>We're changing the whole game! </h1>
+      </div>
+    </section>
     <div className="about-cont">
       <h1 className="about-heading">About Kooky</h1>
       <p className="para">
@@ -39,6 +45,7 @@ const About = () => {
         routine of the Indian Society.
       </p>
     </div>
+    </>
   );
 };
 

@@ -29,7 +29,7 @@ const Home = () => {
   };
   return (
     <>
-    <h1 className="home-product-other">WE ALL TOGETHER</h1>
+    {/* <h1 className="home-product-other">WE ALL TOGETHER</h1> */}
         <div className="home-slider">
           <Slider {...settings}>
             <img src={img4} alt=""/>
@@ -61,7 +61,7 @@ const Home = () => {
           </div>
         </div>
         
-        <div className="home-product-row row" style={{ margin: "0" }}>
+        <div className="home-product-row row m-0">
           <div className="home-product-col-first col-lg-6 col-md-12 col-sm-12">
             <div className="home-product-img-cont">
               <img src={img1} alt="" />
@@ -79,9 +79,9 @@ const Home = () => {
             <h5 className="home-product-originalsize">
               <FaRupeeSign /> 99 (50% off)
             </h5>
-            <button className="home-product-button">Add to Cart</button>
+            {/* <button className="home-product-button">Add to Cart</button> */}
             <br />
-            <button className="home-product-button">Buy Now</button>
+            <a href="https://rzp.io/l/FG2Bf6o5m"><button className="home-product-button">Buy Now</button></a>
             <br />
           </div>
         </div>
@@ -105,9 +105,9 @@ const Home = () => {
             <h5 className="home-product-originalsize">
               <FaRupeeSign /> 99 (50% off)
             </h5>
-            <button className="home-product-button">Add to Cart</button>
+            {/* <button className="home-product-button">Add to Cart</button> */}
             <br />
-            <button className="home-product-button">Buy Now</button>
+            <a href="https://rzp.io/l/FG2Bf6o5m"><button className="home-product-button">Buy Now</button></a>
             <br />
           </div>
         </div>
@@ -130,9 +130,9 @@ const Home = () => {
             <h5 className="home-product-originalsize">
               <FaRupeeSign /> 99 (50% off)
             </h5>
-            <button className="home-product-button">Add to Cart</button>
+            {/* <button className="home-product-button">Add to Cart</button> */}
             <br />
-            <button className="home-product-button">Buy Now</button>
+            <a href="https://rzp.io/l/FG2Bf6o5m"><button className="home-product-button">Buy Now</button></a>
             <br />
           </div>
         </div>

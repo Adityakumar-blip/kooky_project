@@ -1,6 +1,8 @@
 .footer-main-cont{
     padding: 5% 3%;
-    background-color: #F7961D;
+    background-color: #FAD961;
+    background-image: linear-gradient(225deg, #FAD961 0%, #F76B1C 100%);
+    
 }
 
 .footer-col-first{

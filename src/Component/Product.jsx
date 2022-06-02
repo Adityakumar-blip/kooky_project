@@ -10,6 +10,11 @@ import img3 from "./Assets/skincare.png";
 const Product = () => {
   return (
     <>
+    <section>
+      <div className="product">
+        <h1>Our Products</h1>
+      </div>
+    </section>
     <div className="home-product-row row" style={{ margin: "0" }}>
           <div className="home-product-col-first col-lg-6 col-md-12 col-sm-12">
             <div className="home-product-img-cont">
