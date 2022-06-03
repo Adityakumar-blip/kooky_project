@@ -49,14 +49,14 @@
     }
     
     .triangle-icon1{
-        height: 4rem;
-        width: 4rem;
+        height: 3.9rem;
+        width: 4.1rem;
     }
     
     .triangle-icon1>img{
         border-radius: 50%;
         height: 100%;
-        width: 110%;
+        width: 100%;
     }
 
 .home-product-img-cont{

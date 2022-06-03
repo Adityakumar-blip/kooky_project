@@ -8,8 +8,8 @@ import img4 from "./Assets/webpage11.jpg";
 import img5 from "./Assets/webpage2-1.jpg";
 import img6 from "./Assets/webpage3-1.jpg";
 import img7 from './Assets/slsfree.webp'
-import img8 from './Assets/clinically.jpg'
-import img9 from './Assets/paraben.png'
+import img8 from './Assets/proven.jpg'
+import img9 from './Assets/paraben.jpg'
 import img10 from './Assets/webpage22.jpg'
 import img11 from './Assets/webpage2-2.jpg'
 import img12 from './Assets/webpage3-2.jpg'
@@ -36,6 +36,7 @@ const Home = () => {
             <img src={img4} alt=""/>
             <img src={img5} alt="" />
             <img src={img13} alt="" />
+            <img src={img6} alt="" />
           </Slider>
         </div>
       <div className="home-main-cont">
