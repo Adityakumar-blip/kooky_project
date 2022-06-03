@@ -8,11 +8,12 @@ import img4 from "./Assets/webpage11.jpg";
 import img5 from "./Assets/webpage2-1.jpg";
 import img6 from "./Assets/webpage3-1.jpg";
 import img7 from './Assets/slsfree.webp'
-import img8 from './Assets/proven.jpg'
-import img9 from './Assets/proven.jpg'
+import img8 from './Assets/clinically.jpg'
+import img9 from './Assets/paraben.png'
 import img10 from './Assets/webpage22.jpg'
 import img11 from './Assets/webpage2-2.jpg'
 import img12 from './Assets/webpage3-2.jpg'
+import img13 from './Assets/webpage33.jpg'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -24,8 +25,8 @@ const Home = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 3000,
+    autoplaySpeed: 4000,
   };
   return (
     <>
@@ -34,7 +35,7 @@ const Home = () => {
           <Slider {...settings}>
             <img src={img4} alt=""/>
             <img src={img5} alt="" />
-            <img src={img6} alt="" />
+            <img src={img13} alt="" />
           </Slider>
         </div>
       <div className="home-main-cont">
@@ -70,6 +71,8 @@ const Home = () => {
           <div className="home-product-col-second col-lg-6 col-md-12 col-sm-12">
             <h1 className="home-product-name">KOOKY WATERLESS SHAMPOO</h1>
             <p className="home-product-size">SIZE: 75ML</p>
+            <p>Now clean and smooth hair are just a few sprays away! We present you the magic potion that can smoothen your hair and cleanse your scalp in an instant.</p>
+            <p>This product is made using cleansing charcoal and special conditioning quality, which gives you perfect hair ever so quick!</p>
             <strike>
               <h5 className="home-product-fakeprice">
                 <FaRupeeSign />
@@ -96,6 +99,7 @@ const Home = () => {
           <div className="home-product-col-second col-lg-6 col-md-12 col-sm-12">
             <h1 className="home-product-name">KOOKY CRACK HEEL SPRAY</h1>
             <p className="home-product-size">SIZE: 50ML</p>
+            <p>Tired of getting your hands dirty while taking care of cracked heels? Say no more! With Kooky Crack Heel Spray, you can easily get smooth heels with ultimate comfort!</p>
             <strike>
               <h5 className="home-product-fakeprice">
                 <FaRupeeSign />
@@ -121,6 +125,7 @@ const Home = () => {
           <div className="home-product-col-second col-lg-6 col-md-12 col-sm-12">
             <h1 className="home-product-name">KOOKY BODY HYGIENE SPRINKLE</h1>
             <p className="home-product-size">SIZE: 50ML</p>
+            <p>Summers bring itching and sweaty discomfort with it. To help you sooth and cool off the heat through the summers, Kooky Body Hygiene Spray can always come handy!</p>
             <strike>
               <h5 className="home-product-fakeprice">
                 <FaRupeeSign />

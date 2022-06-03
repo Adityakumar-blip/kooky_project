@@ -3,7 +3,17 @@
     background-color: #F7961D;
     color: white;
     text-align: center;
-    border-bottom: 4px solid black;
+    /* border-bottom: 4px solid black; */
+}
+
+.relation{
+    background-color: #F7961D;
+    padding: 2rem 2rem 2rem 2.5rem;
+    /* color: white; */
+}
+
+.relation>h5{
+    padding-top: 1rem;
 }
 
 .stock-img-cont{

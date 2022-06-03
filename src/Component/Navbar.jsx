@@ -52,7 +52,7 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item">
-                            <Link className='nav-link' to='/stock'>Investors</Link>
+                            <Link className='nav-link' to='/stock'>Join with us</Link>
                         
                         </li>
 
